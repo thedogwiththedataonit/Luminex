@@ -181,13 +181,13 @@ nav.stroke ul li a:hover:after {
 }
 .text_black h1 {
     background-size: cover;
-    color: black;
+    color: rgb(48, 48, 48);
     -moz-background-clip: text;
     -webkit-background-clip: text;
     font-size: 60px;
     margin: -25px 0px;
     text-align:left;
-    letter-spacing: -5px;
+    letter-spacing: -4px;
 }
 .text_white h1 {
   background-size: cover;
@@ -197,7 +197,7 @@ nav.stroke ul li a:hover:after {
   font-size: 60px;
   margin: -25px 0px;
   text-align:left;
-  letter-spacing: -5px;
+  letter-spacing: -4px;
 }
 .text h1, .text2 h1{
     background-image: url(https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif);
@@ -273,7 +273,15 @@ nav.stroke ul li a:hover:after {
     left: 50%;
     top:10%;
     z-index: 10;
+}
 
+.facebookiphone {
+  width: auto;
+  height: 600px;
+  position:relative;
+  left: 50%;
+  top:-100%;
+  z-index: 10;
 }
 
 .png3 {
@@ -346,7 +354,7 @@ nav.stroke ul li a:hover:after {
   }
 
 .diagonal-box1 {
-	background-color: #f0f0f0;
+	background-color: #f8f8f8;
 	transform: skewY(-10deg);
     position:relative;
     height:1100px;
