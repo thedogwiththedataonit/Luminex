@@ -1,0 +1,368 @@
+
+body {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -1px;
+    color: inherit;
+    font-size: 40px;
+  }
+  
+  /* By Dominik Biedebach @domobch */
+  
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300;
+    color: inherit;
+    padding: 50px;
+  }
+  
+.center {
+    text-align: center;
+  }
+  
+  /* By Dominik Biedebach @domobch */
+  
+section {
+    height: 100vh;
+  }
+  
+  /* NAVIGATION */
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    padding: 1px 0;
+    box-shadow: 0px 4px 0px #ffffff; 
+  }
+  
+  /* By Dominik Biedebach @domobch */
+nav ul {
+    list-style: none;
+    text-align: center;
+  }
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 20px;
+    margin: 0 15px;
+  }
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+  }
+nav ul li a:hover {
+    color: #000000}
+  
+  /* By Dominik Biedebach @domobch */
+  
+  
+  /* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+  }
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background:#dad9d9;
+    height: 1px;
+  }
+nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+
+#luminexlogo {
+    width:auto;
+    height:70px;
+    vertical-align: middle;
+    padding: 0 45px;
+}
+
+
+.container1 {
+    width: 100%;
+    height: 90%;
+    background-image: url("/static/images/gradient1.gif"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container2 {
+    width: 100%;
+    height: 70%;
+    background-image: url("/static/images/gradient1.gif"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container3 {
+    width: 100%;
+    height: 200%;
+    background-image: url("/static/images/gradient1.gif"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/static/images/gradient1.gif"); 
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container5 {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    background-size:cover;
+}
+.container6 {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    background-size:cover;
+}
+
+.roundedbox1 {
+    width: 95%;
+    height: 95%;
+    top: 2.5%;
+    left: 2.5%;
+    position:relative;
+    border-radius: 25px;
+    background-image: url("/static/images/gradient1.gif"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.text, .text_black, .text_white {
+    position:relative;
+    top: 15%;
+    left:10%;
+    z-index: 10;
+}
+
+.text2 {
+    position:relative;
+    top: 20%;
+    left:10%;
+}
+.text_black h1 {
+    background-size: cover;
+    color: black;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    margin: -25px 0px;
+    text-align:left;
+    letter-spacing: -5px;
+}
+.text_white h1 {
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 60px;
+  margin: -25px 0px;
+  text-align:left;
+  letter-spacing: -5px;
+}
+.text h1, .text2 h1{
+    background-image: url(https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    margin: 0px 0;
+    text-align:left;
+    text-shadow: 2px 2px #ffffff;
+    letter-spacing: -3px;
+    }
+.text h3, .text2 h3 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.2em;
+    margin: -10px 0px;
+    letter-spacing: -2px;
+    word-spacing: 8px;
+    }
+.text_black h3 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+    line-height: 1.2em;
+    margin: -10px 0px;
+    letter-spacing: -2px;
+    word-spacing: 8px;    
+    }
+.text_white h3 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.2em;
+    margin: -10px 0px;
+    letter-spacing: -2px;
+    word-spacing: 8px;    
+    }
+
+.text p, .text2 p {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    font-weight: 400;
+    letter-spacing: -1px;
+    max-width: 700px;
+    }
+
+
+.png1 {
+    width: 600px;
+    height: auto;
+    position:absolute;
+    left: 50%;
+    top:-20%;
+    z-index: 10;
+}
+
+.png2 {
+    width: auto;
+    height: 500px;
+    position:relative;
+    left: 50%;
+    bottom:0%;
+}
+
+.googleadslogo {
+    width: auto;
+    height: 500px;
+    position:absolute;
+    left: 50%;
+    top:10%;
+    z-index: 10;
+
+}
+
+.png3 {
+    width: auto;
+    height: 400px;
+    position:relative;
+    left: 60%;
+    bottom: 50%;;
+}
+
+.png4 {
+  width: auto;
+  height: 500px;
+  position:relative;
+  left: 60%;
+  top: -130%;
+}
+
+
+#clearbutton {
+    width: 180px;
+    height:50px;
+    border-radius:180px;
+    position:relative;
+   
+    top:20%;
+    left:0%;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    cursor:pointer;
+    line-height:12px;
+    border: 3px solid #ffffff;
+  }
+#clearbutton:before {
+    content:'';
+    z-index:1;
+    position:absolute;
+    display:block;
+    width:80%;
+    height:70%;
+    top:15%;
+    left:10%;
+    transition: 0.3s opacity ease-in-out;
+    filter:blur(30px);
+    opacity:0;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  }
+#clearbutton:hover:before {
+    opacity:1;
+    transition: 0.3s opacity ease-in-out;
+    filter:blur(35px);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+  }
+#clearbutton:after {
+    content:'Learn More';
+    letter-spacing: 2px;
+    text-align:center;
+    line-height:50px;
+    font-size:18px;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    z-index:5;
+    position:absolute;
+    display:block;
+    border-radius:180px;
+    width:92%;
+    height:80%;
+    top:-8%;
+    left:4%;  
+    background-color: transparent;
+  }
+
+.diagonal-box1 {
+	background-color: #f0f0f0;
+	transform: skewY(-10deg);
+    position:relative;
+    height:1100px;
+    top:25%;
+}
+.diagonal-box2 {
+	background-color: #3c3b74;
+	transform: skewY(-10deg);
+    position:relative;
+    height:1000px;
+    top:-35%;
+}
+
+.content {
+
+	max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(6deg);
+}
