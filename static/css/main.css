@@ -315,12 +315,12 @@ nav.stroke ul li a:hover:after {
     z-index: 10;
 }
 
-.facebookiphone {
+.fbiphone {
   width: auto;
   height: 600px;
-  position:relative;
+  position:absolute;
   left: 50%;
-  top:-100%;
+  top:-40%;
   z-index: 10;
 }
 
